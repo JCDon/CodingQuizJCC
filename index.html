@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="font-size: 20px; color: rebeccapurple;">
+
+    <div>
+        <h2 id="timeLeft"></h2>
+    </div>
+    <div id="centeredContent" style="display: block;">
+        <h1>Welcome to the Coding Challenge Quiz!</h1>
+
+        <p class="bold">This is a timed pop quiz about the essentials of javascript. Speed will be just as important as
+            smarts so think fast! <br> If you aren't sure, just move on, and if you finish with an awesome score be sure
+            to save your initials. <br> This is a challenge quiz so try your best!</p>
+
+        <button type="button" id="start">Start!</button>
+
+    </div>
+
+    <div id="question0" style="display: none; text-align: center;">
+
+        <h1>What is the name of javascripts syntax?</h1>
+        <br>
+        <br>
+        <br>
+        <strong>
+            <p>Pascal Case</p>
+            <br>
+            <p class="correct">Camel Case</p>
+            <br>
+            <p>Kebab Case</p>
+            <br>
+            <p>Snake Case</p>
+        </strong>
+    </div>
+    <div id="question1" style="display: none; text-align: center;">
+
+        <h1>Which function can call on ids and classes?</h1>
+        <br>
+        <br>
+        <br>
+        <strong>
+            <p>generate()</p>
+            <br>
+            <p>console.log()</p>
+            <br>
+            <p class="correct">querySelector()</p>
+            <br>
+            <p>Math.floor()</p>
+        </strong>
+    </div>
+    <div id="question2" style="display: none; text-align: center;">
+
+        <h1>What number do you get from the Math.random function?</h1>
+        <br>
+        <br>
+        <br>
+        <strong>
+            <p>0-9</p>
+            <br>
+            <p>0-99</p>
+            <br>x
+            <p>1-10</p>
+            <br>
+            <p class="correct">0-1</p>
+        </strong>
+    </div>
+    <div id="question3" style="display: none; text-align: center;">
+
+        <h1>Which tag is used to house javascript in the html?</h1>
+        <br>
+        <br>
+        <br>
+        <strong>
+            
+                <p class="correct">script</p>
+                <br>
+                <p>head</p>
+                <br>
+                <p>footer</p>
+                <br>
+                <p>article</p>
+            
+        </strong>
+    </div>
+    <div id="question4" style="display: none; text-align: center;">
+        <h1>You made it to the end!</h1>
+        <br>
+        <br>
+        <h1 id="finalScore"></h1>
+        <br>
+        <div>
+            <h1>saved scores</h1>
+            <h2 id="savedNickname"></h2>
+            <h2 id="savedScore"></h2>
+        </div>
+        <br>
+        <button id="save">Save Your New Score Here</button>
+
+    </div>
+
+
+
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

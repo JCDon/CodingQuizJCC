@@ -1,0 +1,19 @@
+#centeredContent {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.displayNone {
+    display: none;
+}
+
+#results {
+    font-size: 30px;
+}
